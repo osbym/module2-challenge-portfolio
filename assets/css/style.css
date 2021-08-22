@@ -97,12 +97,20 @@ body {
     font-size: 20px;
 }
 /* ABOUT ME Section - END */
+
 /* WORK Section Syles - Start */
-.flex-container {
+.my-work {
+    padding: 30px 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+}
+.wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #austin-fc {
     flex: 1 100%;
@@ -114,15 +122,28 @@ body {
     background-position: center;
     min-height: 400px;
 }
+.highlight {
+    width: 49%;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid var(--primary);
+    margin-bottom: 10px;
+    padding-top: 65px;
+    opacity: 0.4;
+}
 #nice-kicks {
     background-image: url("../images/nice-kicks-logo.png");
 }
 #horiseon {
-
+    background-image: url("../images/horiseon-image.jpg");
 }
 #adventures {
     background-image: url("../images/osby-iceland.jpg");
 }
+#run-buddy {
+    background-image: url("../images/run-buddy-image.jpg");
+}
+
 
 
 
