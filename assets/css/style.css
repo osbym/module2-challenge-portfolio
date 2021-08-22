@@ -22,28 +22,32 @@ p {
 
 /* HEADER START */
 .header {
-    padding: 20px;
-    font-family: 'Oranienbaum', serif;
-    background-color: #2a607c;
+    padding: 5px;
+    font-family: 'Abel', sans-serif;
+    background-color: rgba(32, 130, 148, 0.753);
     color: #ffffff;
+}
+
+.header h1 .Portfolio {
+    font-family: 'Allison', cursive;
+    display: inline-block;
+    color: #dfdb14;
+    font-size: 60px;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 32px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+    font-size: 30px;
 }
 
 .header nav {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-right: 20px;
     float: right;
-    font-family: 'Oranienbaum', serif;
+    font-family: 'Abel', sans-serif;
     font-size: 20px;
 }
+    
 
 .header nav ul {
     list-style-type: none;
@@ -52,6 +56,10 @@ p {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-decoration: underline; 
+    text-decoration-color: #dfdb14;
+    text-decoration-thickness: 15%;
+    text-underline-offset: 0.3em;
 }
 /* HEADER END */
 
