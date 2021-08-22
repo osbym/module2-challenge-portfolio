@@ -18,10 +18,9 @@
             }
         </style>
     </head>
-
+    <!-- Body Start -->
 <body>
-    <!-- MAIN Section Start -->
-    <main>
+    <!-- Header Start -->
     <section class="header">
         <h1>Marcus Osby's &nbsp;<span class="Portfolio">Portfolio</span></h1>
         <nav>
@@ -29,14 +28,13 @@
             <ul>
         <!-- list item element -->
                 <li>
-        <!-- Anchor Elements -->
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
                     <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="./assets/images/resume-mosby.pdf" target="_blank">Resume</a>
                 </li>
                 <li>
                     <a href="#contact-me">Contact Me</a>
@@ -44,30 +42,39 @@
             </ul>
         </nav>
 </section>
+<!-- Header End -->
     
 <!-- Hero/Jumbotron Section START -->
-    <section class="hero"></section>
-    <!-- Hero Section END -->
-</main>
-    <!-- Main END -->
-        
-    <!-- Article Section START -->
-    <article class="content">
-        <!-- id added so when the links are clicked in the header it lands on content section -->
-        <!-- added alt tags to the images for accessibility -->
+    <aside class="hero">
+        <div class="text">
+            <p>
+        Future Software Engineer
+        </p>
+    </div>
+    </aside>
+<!-- Hero Section END -->
 
-    <!-- "About Me Section" -->
-            <div id="about-me" class="about-me">
-            <img src="./assets/images/search-engine-optimization.jpeg" class="float-left" alt= "photo of table with laptop coffee mug and notebook with SEO instructions"/>
-            <h2>About Me</h2>
+<main>
+    <!-- "About Me" Section -->
+            <section id="about-me" class="about-me">
+                <div class="left">
+                    <h2>About Me</h2>
+                </div>
+                <div></div>
+                <img src="./assets/images/mosby-headshot.jpg" alt= " Marcus Osby headshot"></div>
+            <div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut dui elementum, viverra dui et, vehicula mauris. Praesent ligula purus, vestibulum eu sem vel, condimentum suscipit diam. Cras vulputate neque et justo convallis consectetur. Nulla ultrices viverra felis id luctus. Curabitur eget nulla mollis, dictum purus et, interdum ligula. Maecenas tristique ipsum at pharetra vestibulum. Vivamus eleifend elit lorem, non dapibus velit varius id. Sed fermentum cursus risus, nec euismod tellus tincidunt id. Suspendisse varius fringilla risus, sed luctus magna efficitur nec. Maecenas aliquet tellus ornare, feugiat odio a, vestibulum diam.
-
+            </p>    
+                <br>
+            <p>  
                 Nunc tincidunt ipsum nec sagittis imperdiet. Curabitur sollicitudin mattis mauris, in scelerisque felis condimentum in. Maecenas sed velit vel mi luctus molestie. Etiam ac lorem venenatis, bibendum dolor eu, vulputate diam. Nullam eleifend tellus in tempus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at urna commodo, facilisis ipsum vel, bibendum sem.
             </p>
         </div>
+    </section>
+    <!-- "About Me" End -->
         
-        <!-- "Work Section" -->
+        <!-- "Work Section" Start -->
             <div id="work" class="work">
             <img src="./assets/images/online-reputation-management.jpeg" class="float-right" alt="a gentleman working on his laptop with metrics and bar graphs showing company repuation" />
             <h2>Work</h2>
@@ -76,14 +83,7 @@
             </p>
         </div>
         
-        <!-- "Resume Section"-->    
-            <div id="resume" class="resume">
-            <img src="./assets/images/social-media-marketing.jpeg" class="float-left" alt="bird's eye-view of workers at a meeting with various social media icons and stickers displayed on a table"/>
-            <h2>Resume</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
+        
 
         <!-- "Contact Me"-->
         <div id="contact-me" class="contact-me">
