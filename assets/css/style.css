@@ -62,18 +62,17 @@ body {
 /* HEADER END */
 
 /* HERO START */
-.hero {
+.hero-header {
+    display: flex;
     background-image: url("../images/iceland-icebergs.jpg");
     background-size: cover;
     background-position: center;
     height: 225px;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;    
 }
 
-.hero img {
+.hero-header img {
     height: 150px;
     width: 150px;
     border-radius: 15%;
@@ -81,14 +80,13 @@ body {
     border: 5px solid rgba(32, 130, 148, 0.753);   
 }
 
-.hero .text {
+.hero-header .text {
     font-size: 30px;
     font-family: 'Allison', cursive;
-    display: flex;
     padding: 10px 20px;
     text-align: center;
     background-color: var(--primary);
-    border: 2px solid var(--secondary);
+    border: 3px solid var(--secondary);
 }
 /* HERO ENDS */
 
@@ -141,7 +139,7 @@ body {
 }
 /* WORK Images End */
 
-/* CONTACT ME style start */
+/* CONTACT Information - style start */
 .contact-info a {
     text-decoration: underline;
     text-decoration-color: rgba(32, 130, 148, 0.753);
