@@ -8,7 +8,7 @@
 -CSS
 
 ## Website
-https://osbym.github.io/module2-challenge/
+https://osbym.github.io/module2-challenge-portfolio/
 
 ## User Story
 AS AN employer
