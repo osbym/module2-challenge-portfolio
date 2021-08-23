@@ -40,8 +40,8 @@ body {
 }
 
 .header nav {
-    padding-top: 20px;
-    margin-right: 20px;
+    padding-top: 15px;
+    margin-right: 15px;
     float: right;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
@@ -96,21 +96,16 @@ body {
 .about-me p {
     font-size: 20px;
 }
-
-.headshot img {
-    width: 90px;
-    margin: 0 auto 30px auto;
-}
 /* ABOUT ME Section - END */
 
 /* WORK Section Syles - Start */
-.my-work {
+.work {
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.wrapper {
+.note {
     width: 80%;
     height: 500px;
     display: flex;
@@ -136,6 +131,7 @@ body {
     padding-top: 65px;
     opacity: 0.4;
 }
+/* WORK Images Start */
 #nice-kicks {
     background-image: url("../images/nice-kicks-logo.png");
 }
@@ -148,6 +144,7 @@ body {
 #run-buddy {
     background-image: url("../images/run-buddy-image.jpg");
 }
+/* WORK Images End */
 
 /* CONTACT ME style start */
 .contact-info a {
