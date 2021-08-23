@@ -89,8 +89,17 @@ body {
 /* HERO ENDS */
 
 /* ABOUT ME Section - Start */
-.about-me p {
-    font-size: 20px;
+.about-me-layout {
+    display: inline-block;
+}
+
+.about-me-title {
+    order:1;
+}
+
+.about-me-text p {
+    font-size: 15px;
+    order:2;
 }
 /* ABOUT ME Section - END */
 
