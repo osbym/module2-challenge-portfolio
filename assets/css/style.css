@@ -101,17 +101,22 @@ body {
 /* WORK Section Syles - Start */
 .work {
     padding: 30px 0;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .note {
-    width: 80%;
+    max-width: 500px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+.note img {
+    width: 100%
+}
+/* WORK Images Start */
 #austin-fc {
     flex: 1 100%;
     border: 5px solid var(--primary);
@@ -122,16 +127,6 @@ body {
     background-position: center;
     min-height: 400px;
 }
-.highlight {
-    width: 49%;
-    background-size: cover;
-    background-position: center;
-    border: 5px solid var(--primary);
-    margin-bottom: 10px;
-    padding-top: 65px;
-    opacity: 0.4;
-}
-/* WORK Images Start */
 #nice-kicks {
     background-image: url("../images/nice-kicks-logo.png");
 }
@@ -167,16 +162,16 @@ body {
     margin-right: 10px;
 }
 .contact-info ul li a {
-    color: var(--dark-blue);
-    border-bottom: 2px solid var(--med-blue);
+    color: var(--primary);
+    border-bottom: 2px solid var(--secondary);
     border-width: min-content;
     padding-bottom: 2px;
 }
 .contact-info ul li a:hover {
     color: var(--third);
 }
-/* CONTACT ME style end */
 
+/* CONTACT ME styles end */
 
 
 
