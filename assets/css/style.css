@@ -73,9 +73,7 @@ body {
 }
 
 .hero-header img {
-    height: 150px;
     width: 150px;
-    border-radius: 15%;
     background-size: cover;
     border: 5px solid rgba(32, 130, 148, 0.753);   
 }
