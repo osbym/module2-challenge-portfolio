@@ -121,30 +121,16 @@ body {
 .note img {
     width: 100%
 }
-/* WORK Images Start */
+/* Austin-FC First Images Start */
 #austin-fc {
     flex: 1 100%;
-    border: 5px solid var(--primary);
     margin-bottom: 20px;
     width: 100%;
-    background-image: url("../images/austin-fc.jpg");
     background-size: cover;
     background-position: center;
     min-height: 400px;
 }
-#nice-kicks {
-    background-image: url("../images/nice-kicks-logo.png");
-}
-#horiseon {
-    background-image: url("../images/horiseon-image.jpg");
-}
-#adventures {
-    background-image: url("../images/osby-iceland.jpg");
-}
-#run-buddy {
-    background-image: url("../images/run-buddy-image.jpg");
-}
-/* WORK Images End */
+/* Austin-FC First Image END */
 
 /* CONTACT Information - style start */
 .contact-info a {
@@ -167,10 +153,10 @@ body {
     margin-right: 10px;
 }
 .contact-info ul li a {
-    color: var(--primary);
     border-bottom: 2px solid var(--secondary);
     border-width: min-content;
     padding-bottom: 2px;
+    color: var(--primary);
 }
 .contact-info ul li a:hover {
     color: var(--third);
