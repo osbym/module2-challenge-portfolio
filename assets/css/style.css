@@ -90,16 +90,19 @@ body {
 
 /* ABOUT ME Section - Start */
 .about-me-layout {
-    display: inline-block;
+   
 }
 
 .about-me-title {
-    order:1;
+    max-width: 35%;
+    text-align: center;
+    margin: 1%;
+    padding: 1%; 
 }
 
 .about-me-text p {
     font-size: 15px;
-    order:2;
+   
 }
 /* ABOUT ME Section - END */
 
@@ -113,6 +116,7 @@ body {
 }
 .note {
     max-width: 500px;
+    min-width: 500px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +124,22 @@ body {
 }
 .note img {
     width: 100%
+}
+
+.work-layout {
+    display: flex;
+
+}
+.work-title {
+    max-width: 35%;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 /* Austin-FC First Images Start */
 #austin-fc {
