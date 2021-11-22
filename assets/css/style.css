@@ -141,8 +141,8 @@ body {
     flex-wrap: wrap;
 
 }
-/* Austin-FC First Images Start */
-#austin-fc {
+/* Group-Project-2 Images Start */
+#group-project-2 {
     flex: 1 100%;
     margin-bottom: 20px;
     width: 100%;
@@ -150,7 +150,7 @@ body {
     background-position: center;
     min-height: 400px;
 }
-/* Austin-FC First Image END */
+/* Group-Project-2 Image END */
 
 /* CONTACT Information - style start */
 .contact-info a {
